@@ -12,4 +12,5 @@
 
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=ademhatay&show_icons=true&locale=en&layout=compact" alt="ademhatay" /></p>
 
-[![jaeskim's 42 stats](https://badge42.herokuapp.com/api/stats/ahatay?privacyEmail=true)](https://github.com/JaeSeoKim/badge42)
+[![ahatay's 42 stats](https://badge42.herokuapp.com/api/stats/ahatay?privacyEmail=true)](https://github.com/ademhatay)
+[![ahatay's 42 stats](https://badge42.herokuapp.com/api/stats/ahatay?cursus=C%20Piscine)](https://github.com/ademhatay)
