@@ -12,5 +12,7 @@
 
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=ademhatay&show_icons=true&locale=en&layout=compact" alt="ademhatay" /></p>
 
-[![ahatay's 42 stats](https://badge42.herokuapp.com/api/stats/ahatay?privacyEmail=true)](https://profile.intra.42.fr/users/ahatay)
-[![ahatay's 42 stats](https://badge42.herokuapp.com/api/stats/ahatay?cursus=C%20Piscine)](https://profile.intra.42.fr/users/ahatay)
+42 Piscine Stats
+[![ahatay's 42 stats](https://badge42.vercel.app/api/v2/stats/cl13inawu000609kzjcd3ovmg?cursusId=9)](https://github.com/addmhatay)
+42 Cursus Stats
+[![ahatay's 42 stats](https://badge42.vercel.app/api/v2/stats/cl13inawu000609kzjcd3ovmg?cursusId=21)](https://profile.intra.42.fr/users/ahatay)
