@@ -13,11 +13,10 @@
 
 
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=ademhatay)](https://github.com/ademhatay)
-
 Github Stats |
 | ----------- |
 |<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=ademhatay&show_icons=true&locale=en&layout=compact" alt="ademhatay" /></p>|
+|[![trophy](https://github-profile-trophy.vercel.app/?username=ademhatay)](https://github.com/ademhatay)|
 
  42 Piscine Stats      | 42 Cursus Stats |
 | ----------- | ----------- |
