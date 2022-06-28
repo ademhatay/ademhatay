@@ -2,7 +2,7 @@
 <p>My 🌎, hello world</p>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=ademhatay&label=Profile%20views&color=0e75b6&style=flat" alt="ademhatay" /> </p>
 
-42 Piscine Stats      |  42 Cursus Stats |
+42 Piscine Stats      |  42 Cursus Stats  |
 | ----------- | ----------- |
 | [![ahatay's 42 stats](https://badge42.vercel.app/api/v2/stats/cl13inawu000609kzjcd3ovmg?cursusId=9)](https://github.com/ademhatay)      | [![ahatay's 42 stats](https://badge42.vercel.app/api/v2/stats/cl13inawu000609kzjcd3ovmg?cursusId=21)](https://profile.intra.42.fr/users/ahatay)       |
 
