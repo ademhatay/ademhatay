@@ -1,10 +1,14 @@
 <h1 align="center">Hi 👋, I'm Adem Hatay</h1>
 <p>My 🌎, hello world</p>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=ademhatay&label=Profile%20views&color=0e75b6&style=flat" alt="ademhatay" /> </p>
 <p>🏫student in İstanbul University - Managment Information System</p>
 <p>🏫student in Anadolu University - Computer Programming</p>
 
 <p>🧑‍💻 I am  interested in Javascript</p>
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=ademhatay&label=Profile%20views&color=0e75b6&style=flat" alt="ademhatay" /> </p>
+
+[ademhatay.com](https://ademhatay.com) and [hatayadem5@gmail.com](mailto:hatayadem5@gmail.com)
+
+
 
 ![gif](https://media.giphy.com/media/bAQH7WXKqtIBrPs7sR/giphy.gif)
 
