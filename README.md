@@ -33,7 +33,7 @@ interface person_info {
 	social: person_social;
 }
 
-const getSocailLinks = (person: person_info) => {
+const getSocialLinks = (person: person_info) => {
 	let socialLinks = "";
 	for (const key in person.social) {
 		socialLinks += `${key}: ${person.social[key]}\n`;
@@ -50,7 +50,7 @@ const getProfile = (person: person_info) => {
 			profile += `${key}: ${person[key]}\n`;
 		} 
 	}
-	let social = getSocailLinks(person);
+	let social = getSocialLinks(person);
 	return profile + social;
 };
 
