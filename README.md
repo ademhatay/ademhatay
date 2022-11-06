@@ -14,6 +14,17 @@ npm install ademhatay
 // ademhatay.ts
 // Welcome To My Profile
 
+interface person_skills {
+	html?: boolean;
+	css?: boolean;
+	js?: boolean;
+	react?: boolean;
+	node?: boolean;
+	c?: boolean;
+	docker?: boolean;
+	// ...
+}
+
 interface person_social {
 	twitter?: string;
 	facebook?: string;
@@ -36,7 +47,13 @@ interface person_info {
 	phone_number: string;
 	email: string;
 	social: person_social;
+	skills: person_skills;
 }
+
+const getSkills = (person: person_info) => {
+	const skills = Object.keys(person.skills).filter((skill) => person.skills[skill]);
+	return skills;
+};
 
 const getSocialLinks = (person: person_info) => {
 	let socialLinks = "";
@@ -49,14 +66,15 @@ const getSocialLinks = (person: person_info) => {
 const getProfile = (person: person_info) => {
 	let profile = "";
 	for (const key in person) {
-		if (typeof person[key] === "undefined"){
-      profile += `${key}: ---\n`;
-    } else if (typeof person[key] !== "object") {
+		if (typeof person[key] === "undefined") {
+			profile += `${key}: ---\n`;
+		} else if (typeof person[key] !== "object") {
 			profile += `${key}: ${person[key]}\n`;
-		} 
+		}
 	}
 	let social = getSocialLinks(person);
-	return profile + social;
+	let skills = getSkills(person);
+	return profile + social + 'Skills\n' + skills;
 };
 
 class Person implements person_info {
@@ -71,6 +89,7 @@ class Person implements person_info {
 	phone_number: string;
 	email: string;
 	social: person_social;
+	skills: person_skills;
 
 	constructor(person: person_info) {
 		this.id = person.id;
@@ -78,12 +97,13 @@ class Person implements person_info {
 		this.last_name = person.last_name;
 		this.middle_name = person.middle_name;
 		this.age = person.age;
-    this.school1 = person.school1;
-    this.school2 = person.school2;
-    this.current_company = person.current_company;
-    this.phone_number = person.phone_number;
-    this.email = person.email;
-    this.social = person.social;
+		this.school1 = person.school1;
+		this.school2 = person.school2;
+		this.current_company = person.current_company;
+		this.phone_number = person.phone_number;
+		this.email = person.email;
+		this.social = person.social;
+		this.skills = person.skills;
 	}
 
 	getProfile() {
@@ -108,6 +128,15 @@ const Adem = new Person({
 		instagram: "https://instagram.com/ademhatay_",
 		youtube: "https://youtube.com/@ademhatay",
 		website: "https://ademhatay.com"
+	},
+	skills: {
+		html: true,
+		css: true,
+		js: true,
+		react: true,
+		node: true,
+		c: true,
+		docker: false
 	}
 });
 
