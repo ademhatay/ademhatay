@@ -5,6 +5,11 @@
 ```
 npm install ademhatay
 ```
+
+<details>
+
+<summary>Show Profile</summary>
+
 ```
 // ademhatay.ts
 // Welcome To My Profile
@@ -109,5 +114,5 @@ const Adem = new Person({
 console.log(Adem.getProfile());
 
 
-
 ```
+</details>
