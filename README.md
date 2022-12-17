@@ -51,4 +51,4 @@ src="https://img.shields.io/github/followers/ademhatay?logo=github&style=for-the
 
 <b>My GitHub Stats</b>
 
-<a href="http://www.github.com/ademhatay"><img src="https://activity-graph.herokuapp.com/graph?username=ademhatay&bg_color=1c1917&color=ffffff&line=0891b2&point=ffffff&area_color=1c1917&area=true&hide_border=true&custom_title=GitHub%20Commits%20Graph" alt="GitHub Commits Graph" /></a>
+[![ademhatay's github activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=ademhatay&bg_color=000000&color=7d7d7d&line=ffffff&point=ff0000&area=true&hide_border=true)](https://github.com/ademhatay)
