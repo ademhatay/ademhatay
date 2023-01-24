@@ -6,7 +6,7 @@ Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-912
 Javascript Developer
 --------------------
 
-Welcome to my Profile. Student at Istanbul University
+Welcome to my Profile Student at Istanbul University
 
 * 🌍  I'm based in Kocaeli, Turkey
 * 🖥️  See my portfolio at [website](http://ademhatay.com)
