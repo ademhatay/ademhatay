@@ -11,7 +11,7 @@ Welcome to my Profile Student at Istanbul University
 * 🌍  I'm based in Kocaeli, Turkey
 * 🖥️  See my portfolio at [website](http://ademhatay.com)
 * ✉️  You can contact me at [hatayadem5@gmail.com](mailto:hatayadem5@gmail.com)
-* 🧠  I'm learning ExpressJS & ReactJS
+* 🧠  I develop applications with React, React Native and NodeJS
 <img src="https://user-images.githubusercontent.com/66277966/170010039-f1832532-4421-4e64-a3f5-327a0b926d0e.svg">
 <a href="https://www.twitter.com/hatayadem" target="_blank" rel="noreferrer"><img
 src="https://img.shields.io/twitter/follow/hatayadem?logo=twitter&style=for-the-badge&color=0891b2&labelColor=1c1917"
