@@ -21,7 +21,7 @@ Bu projeyi öne çıkanlara ekledim çünkü gerkçekten beni geliştiren bir pr
 Demo: https://world-cup-22-simulator.surge.sh/
 Repo: https://github.com/ademhatay/world-cup-22-sim
 
--- **Super Blog**
+- **Super Blog**
 İlk full-stack deneyimim tasarımda fazla durmadan backend kısmında pekçok şey öğrendim. user-user ilişkişi user-post post-comment gibi arka tarafta birçok konuyu öğrendim , tecrübe ettim. 
 
 Repo:  https://github.com/ademhatay/super-blog
