@@ -1,6 +1,6 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=ademhatay&label=Profile%20views&color=0e75b6&style=flat" alt="ademhatay" /> </p>
-Unity Game Developer
-HTML | CSS | JS & TS | React.js | React Native | Node.js | Express.js | MongoDB | PostgreSQL | PHP | Next.js
+
+HTML | CSS | JS & TS | React.js | React Native | Node.js | Express.js | MongoDB | PostgreSQL | PHP | Next.js | Unity | Flutter
 
 Öne Çıkan Projelerim:
 
