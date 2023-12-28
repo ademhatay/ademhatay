@@ -1,0 +1,16 @@
+{
+  "name": "ademhatay",
+  "version": "1.0.0",
+  "description": "<p align=\"left\"> <img src=\"https://komarev.com/ghpvc/?username=ademhatay&label=Profile%20views&color=0e75b6&style=flat\" alt=\"ademhatay\" /> </p>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0"
+  }
+}

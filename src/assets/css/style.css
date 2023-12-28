@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap');
+
+
+/* -------------- VARIABLES -------------- */
+/* -------------- COLORS -------------- */
+:root {
+    --color-primary: oklch(0.4912 0.3096 275.75);
+    --color-primary-content: oklch(0.89824 0.06192 275.75);
+    --color-secondary: oklch(0.6971 0.329 342.55);
+    --color-secondary-content: oklch(0.9871 0.0106 342.55);
+    --color-accent: oklch(0.7676 0.184 183.61);
+    --color-accent-content: oklch(0.15352 0.0368 183.61);
+    --color-neutral: oklch(0.321785 0.02476 255.702);
+    --color-neutral-content: oklch(0.894994 0.011585 252.096);
+    --color-base-100: oklch(1 0 0);
+    --color-base-200: oklch(0.961151 0 0);
+    --color-base-300: oklch(0.924169 0.00108 197.138);
+    --color-base-content: oklch(0.278078 0.029596 256.848);
+    --color-info: oklch(0.7206 0.191 231.6);
+    --color-info-content: oklch(0 0 0);
+    --color-success: oklch(0.648 0.15 160);
+    --color-success-content: oklch(0 0 0);
+    --color-warning: oklch(0.8471 0.199 83.87);
+    --color-warning-content: oklch(0 0 0);
+    --color-error: oklch(0.7176 0.221 22.18);
+    --color-error-content: oklch(0 0 0);
+    --color-white: #fff;
+    --color-black: #000;
+    --color-gray: gray;
+    --color-transparent: #ffffff5d;
+  }
+  
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: var(--color-white);
+}
+
+
+
+/* -------------- RESET -------------- */
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* -------------- GLOBAL -------------- */
+
+/* -------------- NAV -------------- */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.header-logo {
+    flex: 2;
+}
+
+.site-title {
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    position: relative;
+    padding: 10px;
+    display: inline-block;
+    transition: all 0.5s;
+}
+
+.active {
+    color: var(--color-primary);
+    position: relative;
+}
+
+.nav-menu-item a.active:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px; /* veya istediğiniz kalınlıkta */
+    background-color: var(--color-primary);
+}
+
+
+.shake:hover {
+    animation: shake 0.5s cubic-bezier(.36, .07, .19, .97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+    color: var(--color-primary);
+}
+
+.shake::after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--color-primary);
+    transition: width 0.5s;
+}
+
+.shake:hover:after {
+    width: 100%;
+}
+
+.nav {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-menu-item a {
+    position: relative;
+    font-size: larger; 
+    display: inline-block;
+    transition: all 0.5s;
+}
+/* -------------- NAV -------------- */
+
+/* -------------- ANIMATIONS -------------- */
+/* shake */
+@keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+    
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+  
+    30%, 50%, 70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+  
+    40%, 60% {
+      transform: translate3d(4px, 0, 0);
+    }
+  }
+/* -------------- ANIMATIONS -------------- */
+
+/* -------------- RESPONSIVE -------------- */
+@media screen and (max-width: 768px) {
+    .wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-menu {
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-menu-item {
+        margin: 5px 0;
+    }
+}
+/* -------------- RESPONSIVE -------------- */

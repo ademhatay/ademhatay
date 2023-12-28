@@ -1,0 +1,8 @@
+---
+layout: layout
+title: Blog
+---
+
+{% for item in collections.post  %}
+    {% include "post-card.njk" %}
+{% endfor %}

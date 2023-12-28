@@ -63,6 +63,7 @@ typings/
 .cache
 **/.cache
 public
+_site
 
 .idea
 .vscode
