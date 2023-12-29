@@ -7,6 +7,8 @@ description: Express.js, Node.js üzerinde çalışan bir web framework'dür.
 
 # Express JS Nedir?
 
+`npm i express`
+
 Express.js, Node.js üzerinde çalışan bir web framework'dür. Bu framework, web uygulamaları geliştirirken kullanılabilecek birçok özellik sunar ve bu sayede web uygulamalarının geliştirilmesini kolaylaştırır. Örneğin, Express.js ile web uygulamaları için rotalama (routing), veri yönlendirme (middleware) ve güncelleme (update) gibi işlemler kolayca gerçekleştirilebilir. Ayrıca, Express.js ile birlikte kullanılabilecek çeşitli modüller ve kütüphaneler mevcuttur ve bu sayede çeşitli işlemler yapılabilir.
 
 ## Express JS ile Ne Yapılabilir?
@@ -44,7 +46,7 @@ app.use((req, res, next) => {
 });
 ```
 4- Güncelleme (update): Express.js ile web uygulamaları için veri güncelleme işlemleri yapılabilir. Örneğin, aşağıdaki kod parçacığı ile '/kullanıcılar' URL'sine POST isteği yapılarak veri güncelleme işlemi gerçekleştirilebilir:
-```js
+```php
 app.post('/kullanıcılar', (req, res) => {
   // Veri güncelleme işlemleri
   res.send('Veri güncellendi');

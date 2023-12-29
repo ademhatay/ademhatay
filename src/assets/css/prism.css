@@ -1,6 +1,8 @@
+@import url('style.css');
+
 code[class*="language-"],
 pre[class*="language-"] {
-    color: black;
+    color: var(--p);
     background: none;
     font-family: var(--font-family-code);
     font-size: var(--step--1);
@@ -25,8 +27,8 @@ pre[class*="language-"] {
 pre[class*="language-"] > code {
     position: relative;
     border-inline-start: 0.5rem solid var(--color-primary);
-    background-color: #fdfdfd;
-    background-image: linear-gradient(transparent 50%, #fafafa 50%);
+    background-color: var(--b3);
+    background-image: linear-gradient(transparent 50%, var(--b3) 50%);
     background-size: 4em 4em;
     background-origin: content-box;
     background-attachment: local;
@@ -43,7 +45,7 @@ code[class*="language"] {
 /* Margin bottom to accommodate shadow */
 :not(pre) > code[class*="language-"],
 pre[class*="language-"] {
-    background-color: #fdfdfd;
+    background-color: var(--b3);
     box-sizing: border-box;
 }
 
@@ -52,7 +54,7 @@ pre[class*="language-"] {
     position: relative;
     padding: 0.2em;
     border-radius: 0.3em;
-    color: #c92c2c;
+    color: var(--bc);
     border: 1px solid rgba(0 0 0 10%);
     display: inline;
     white-space: normal;
