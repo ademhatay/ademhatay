@@ -20,8 +20,3 @@ function switchTheme(e) {
 }
 
 toggleSwitch.addEventListener('change', switchTheme, false);
-
-// scroll çıkınca console.log
-window.addEventListener('scroll', function() {
-  this.alert('scroll');
-});

@@ -1,8 +1,19 @@
 ---
-layout: layout
+layout: page
 title: Blog
+collection: post
+pagination:
+    data: collections.post
+    size: 3
+    reverse: true
 ---
 
-{% for item in collections.post  %}
+<div>
+    {% for item in pagination.items %}
+    {% if item.data.featured !== true %}
     {% include "post-card.njk" %}
-{% endfor %}
+    {% endif %}
+    {% endfor %}
+</div>
+
+{% include "pagination.njk" %}

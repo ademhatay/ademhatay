@@ -16,13 +16,14 @@
     <script src="https://kit.fontawesome.com/2b252bd247.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body id="root">
     <div class="container">
         {% include "home/header.njk" %}
         {{ content | safe }}
     </div>
 
     <script src="/assets/js/app.js"></script>
+    <!-- <script src="/assets/js/slingshot.js"></script> -->
 </body>
 
 </html>

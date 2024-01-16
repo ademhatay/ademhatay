@@ -1,9 +1,12 @@
 <header class="wrapper">
     <div class="header-logo">
-        <a class="site-title shake" href="/">AH.</a>
+        <a class="site-title shake" href="/">ademhatay.com</a>
     </div>
     <nav class="nav">
         <ul class="nav-menu">
+            <li class="nav-menu-item">
+                <a class="shake {{ 'active' if '/about' in page.url }}" href="/about">About</a>
+            </li>
             <li class="nav-menu-item">
                 <a class="shake {{ 'active' if '/projects' in page.url }}" href="/projects">Projects</a>
             </li>
@@ -15,4 +18,5 @@
                 <label for="switch">Toggle</label>
             </li>
         </ul>
+    </nav>
 </header>
