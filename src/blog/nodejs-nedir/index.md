@@ -2,6 +2,9 @@
 title: Node.js Nedir?
 excerpt: Node.js, JavaScript dilini kullanan bir çalışma zamanıdır.
 date: 2020-01-01
+tags: [nodejs, javascript]
+category: javascript
+readTime: 8
 ---
 
 Node.js, JavaScript dilini kullanan bir çalışma zamanıdır. Özellikleri şunlardır:

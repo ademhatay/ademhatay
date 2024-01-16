@@ -1,7 +1,6 @@
 ---
-title: Haber Backend
-excerpt: Haber Backend Projesi
-date: 2022-01-01
+title: Haber Backend 2
+date: 2024-01-01
 category: project
 ---
 

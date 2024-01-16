@@ -1,6 +1,9 @@
 ---
 title: Express JS Nedir?
 description: Express.js, Node.js üzerinde çalışan bir web framework'dür.
+date: 2023-12-01
+category: javascript
+featured: true
 ---
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png"  width="250"/>

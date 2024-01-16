@@ -1,9 +1,8 @@
 ---
-title: Haber Frontend
+title: Haber Frontend 2
 excerpt: Haber Frontend Projesi
-date: 2023-01-01
+date: 2023-01-02
 category: project
-featured: true
 ---
 
 # Haber Frontend
