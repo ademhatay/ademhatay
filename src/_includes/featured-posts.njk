@@ -1,10 +1,10 @@
 <div class="featured-posts">
     <img class="pinned" width="26" src="/assets/img/pinned.png" alt="pinned">
     <h3> Featured 
-        {% if item.title === "Blog" %}
+        {% if title === "Blog" %}
             Posts
         {% else %}
-            {{item.title}}
+            {{title}}
         {% endif %}
         <small>({{featuredCount}})</small></h3>
 </div>

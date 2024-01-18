@@ -1,0 +1,31 @@
+module.exports = [
+    {
+        "title": "Software Developer",
+        "description": "Winergy Technologies",
+        "dateIn": "2023-03-01",
+        "dateOut": "2023-06-01",
+        // "present": true,
+        "location": "Ankara, Türkiye",
+        "category": "experience",
+        "tags": ['wordpress', 'javascript', 'php', 'vuejs', 'nodejs', 'mysql'],
+    },
+    {
+        "title": "Software Developer",
+        "description": "Cubicl",
+        "dateIn": "2023-07-01",
+        "dateOut": "2023-08-01",
+        "location": "Ankara, Türkiye",
+        "category": "experience",
+        "tags": ['integration', 'javascript', 'typescript', 'git', 'nodejs'],
+    },
+    {
+        "title": "Software Developer",
+        "description": "Plavel",
+        "dateIn": "2024-01-01",
+        "dateOut": "2024-01-01",
+        "present": true,
+        "location": "Istanbul, Türkiye",
+        "category": "experience",
+        "tags": ['react', 'javascript', 'typescript', 'git'],
+    },
+];

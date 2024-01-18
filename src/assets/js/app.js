@@ -1,6 +1,8 @@
+import { extendedTags } from "./extendTag.js";
+
 var currentTheme;
-if(!currentTheme) {
-  currentTheme = localStorage.getItem('theme') || null;
+if (!currentTheme) {
+    currentTheme = localStorage.getItem('theme') || null;
 }
 
 var toggleSwitch = document.querySelector('.theme-controller');
@@ -20,3 +22,15 @@ function switchTheme(e) {
 }
 
 toggleSwitch.addEventListener('change', switchTheme, false);
+
+export function extendTags(tags) {
+    for (const tag in tags) {
+        const style = tags[tag];
+        document.querySelectorAll(".tag-" + tag).forEach((element) => {
+            element.style.backgroundColor = style.backgroundColor;
+            element.style.color = style.textColor;
+        });
+    }
+}
+
+extendTags(extendedTags);

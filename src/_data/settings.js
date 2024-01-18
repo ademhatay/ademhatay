@@ -1,3 +1,5 @@
+const educations = require('./educations.js');
+const experiences = require('./experiences.js');
 module.exports = {
     siteMetaData: {
         siteTitle: 'Adem Hatay | Software Developer',
@@ -13,4 +15,6 @@ module.exports = {
         instagram: 'https://www.instagram.com/ademhatay_/',
         email: 'mailto:hatayadem5@gmail.com',
     },
+    educations,
+    experiences,
 }

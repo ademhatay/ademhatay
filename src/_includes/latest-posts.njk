@@ -1,10 +1,10 @@
 <div class="featured-posts">
     <img src="/assets/img/new.png" alt="new" style="transform: rotate(-90deg); width: 32px;">
     <h3> Latest
-        {% if item.title === "Blog" %}
+        {% if title === "Blog" %}
             Posts
         {% else %}
-            {{item.title}}
+            {{title}}
         {% endif %}
         <small>({{totalCount - featuredCount}})</small></h3>
 </div>

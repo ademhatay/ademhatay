@@ -1,0 +1,30 @@
+module.exports = [
+    {
+        "title": "Ecole 42",
+        "description": "Software School",
+        "dateIn": "2022-01-01",
+        "dateOut": "2023-01-01",
+        "location": "Kocaeli, Türkiye",
+        "category": "education",
+        "tags": ['c', 'git', 'github', 'docker', 'linux', 'aws'],
+    },
+    {
+        "title": "computer programming",
+        "description": "Anadolu University",
+        "dateIn": "2022-09-01",
+        "dateOut": "2024-06-01",
+        "category": "education",
+        "location": "Eskişehir, Türkiye",
+        "tags": ['react', 'javascript', 'typescript', 'flutter', 'react-native' ],
+    },
+    {
+        "title": "management information systems",
+        "description": "Istanbul University",
+        "dateIn": "2022-09-01",
+        "dateOut": "2026-06-01",
+        "present": true,
+        "category": "education",
+        "location": "Istanbul, Türkiye",
+        "tags": ['react', 'javascript', 'typescript', 'flutter', 'react-native'],
+    },
+];
