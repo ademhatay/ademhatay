@@ -1,12 +1,13 @@
 ---
 title: Javascript Nedir?
-date: 2024-01-18
+date: 2024-02-19
 category: javascript
+tags: ["javascript", "yazilim", "programlama", "web"]
+banner: https://northsoft.co/blog/wp-content/uploads/2022/11/image-1024x538.jpeg
 ---
 <br/><br/>
 
-# JavaScript Nedir?
-<img  src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" width="50"  />
+
 
 JavaScript, bir programlama dilidir ve web tarayıcılarında çalışır. Bu, bir web sayfasındaki dinamik içeriği oluşturmak, etkileşimli formlar oluşturmak ve web sayfasının davranışını değiştirmek gibi işlemleri gerçekleştirmek için kullanılır.
 <br/><br/>

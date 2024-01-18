@@ -2,10 +2,9 @@
 title: React Native Nedir?
 date: 2024-01-18
 category: react
+banner: https://miro.medium.com/v2/resize:fit:700/1*C3kxjCrJy-aWSMpe2chfaA.png
 ---
 <br/><br/>
-
-<img src="https://www.appcoda.com/wp-content/uploads/2015/04/react-native.png" width="300" />
 
 # React Native Nedir?
 <br/><br/>
