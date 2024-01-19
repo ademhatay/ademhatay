@@ -4,12 +4,14 @@ date: 2024-03-19
 category: javascript
 tags: ["javascript", "programlama", "hata yönetimi"]
 banner: https://miro.medium.com/v2/resize:fit:1200/1*i0-ZubqP-XVjOUpon7SMZA.png
+description: Try-catch blokları, bir programın belirli bir bölümünü izleyerek potansiyel hataları ele almak için kullanılır. Bu bloklar, kodun hata üretebilecek kısmını try içerisine yerleştirir ve olası bir hata durumunda catch bloğu devreye girer.
 ---
 
 ## JavaScript Try-Catch Blokları
-
+\
 Try-catch blokları, bir programın belirli bir bölümünü izleyerek potansiyel hataları ele almak için kullanılır. Bu bloklar, kodun hata üretebilecek kısmını try içerisine yerleştirir ve olası bir hata durumunda catch bloğu devreye girer.
 
+&nbsp;
 ```javascript
 try {
   // Potansiyel hata üretebilecek kod bloğu
@@ -21,7 +23,11 @@ try {
 }
 ```
 
+&nbsp;
+
 Yukarıdaki örnekte, undefinedVariable adında bir değişken tanımlanmamıştır. Bu değişkeni console.log() fonksiyonu ile ekrana yazdırmaya çalıştığımızda, hata üretir. Bu hata, catch bloğu içerisindeki console.error() fonksiyonu ile ekrana yazdırılır.
+
+&nbsp;
 
 ```javascript
 try {
@@ -37,7 +43,11 @@ try {
 }
 ```
 
+&nbsp;
+
 Yukarıdaki örnekte, try-catch bloklarına ek olarak finally bloğu da kullanılmıştır. finally bloğu, try-catch bloklarının sonunda çalışır ve her durumda çalışacak kodları içerir.
+
+&nbsp;
 
 ## Try-Catch Bloklarının Avantajları
 

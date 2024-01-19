@@ -4,6 +4,7 @@ date: 2024-02-19
 category: javascript
 tags: ["javascript", "yazilim", "programlama", "web"]
 banner: https://northsoft.co/blog/wp-content/uploads/2022/11/image-1024x538.jpeg
+description: JavaScript, bir programlama dilidir ve web tarayıcılarında çalışır. Bu, bir web sayfasındaki dinamik içeriği oluşturmak, etkileşimli formlar oluşturmak ve web sayfasının davranışını değiştirmek gibi işlemleri gerçekleştirmek için kullanılır.
 ---
 <br/><br/>
 

@@ -3,6 +3,7 @@ title: React Native Nedir?
 date: 2024-01-18
 category: react
 banner: https://miro.medium.com/v2/resize:fit:700/1*C3kxjCrJy-aWSMpe2chfaA.png
+description: React Native, Facebook tarafından geliştirilen ve açık kaynak kodlu bir mobil uygulama geliştirme platformudur. React Native, JavaScript dili kullanılarak yazılmış mobil uygulamaların geliştirilmesine yardımcı olur. Bu sayede, bir mobil uygulama için ayrı ayrı iOS ve Android için kod yazmak zorunda kalmazsınız, tek bir kod tabanı üzerinden iki platformda da çalışacak şekilde uygulama geliştirebilirsiniz.
 ---
 <br/><br/>
 

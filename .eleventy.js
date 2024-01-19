@@ -1,5 +1,22 @@
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+const htmlmin = require("html-minifier");
+
 module.exports = function (eleventyConfig) {
+
+    // Minify HTML
+    eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
+        if (outputPath.endsWith(".html")) {
+            let minified = htmlmin.minify(content, {
+                useShortDoctype: true,
+                removeComments: true,
+                collapseWhitespace: true,
+                minifyCSS: true
+            });
+            return minified;
+        }
+        return content;
+    });
+
     eleventyConfig.addPlugin(syntaxHighlight);
 
     eleventyConfig.setQuietMode(true);
