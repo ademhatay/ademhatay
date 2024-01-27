@@ -14,12 +14,12 @@ Try-catch blokları, bir programın belirli bir bölümünü izleyerek potansiye
 &nbsp;
 ```javascript
 try {
-  // Potansiyel hata üretebilecek kod bloğu
-  // Örneğin: bir değişkenin tanımlanmamış olması
-  console.log(undefinedVariable);
+    // Potansiyel hata üretebilecek kod bloğu
+    // Örneğin: bir değişkenin tanımlanmamış olması
+    console.log(undefinedVariable);
 } catch (error) {
-  // Hata durumunda çalışacak kod bloğu
-  console.error("Hata Oluştu:", error.message);
+    // Hata durumunda çalışacak kod bloğu
+    console.error("Hata Oluştu:", error.message);
 }
 ```
 
@@ -31,15 +31,15 @@ Yukarıdaki örnekte, undefinedVariable adında bir değişken tanımlanmamışt
 
 ```javascript
 try {
-  // Potansiyel hata üretebilecek kod bloğu
-  // Örneğin: bir değişkenin tanımlanmamış olması
-  console.log(undefinedVariable);
+    // Potansiyel hata üretebilecek kod bloğu
+    // Örneğin: bir değişkenin tanımlanmamış olması
+    console.log(undefinedVariable);
 } catch (error) {
-  // Hata durumunda çalışacak kod bloğu
-  console.error("Hata Oluştu:", error.message);
+    // Hata durumunda çalışacak kod bloğu
+    console.error("Hata Oluştu:", error.message);
 } finally {
-  // Her durumda çalışacak kod bloğu
-  console.log("Finally bloğu çalıştı.");
+    // Her durumda çalışacak kod bloğu
+    console.log("Finally bloğu çalıştı.");
 }
 ```
 
