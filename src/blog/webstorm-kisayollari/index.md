@@ -28,10 +28,4 @@ WebStorm, JetBrains tarafından geliştirilen bir IDE'dir. İşlevselliği ve ku
 
 <br/>
 
-Benim en çok kullandığım kısayollar bunlar. Siz de yorumlarda en çok kullandığınız kısayolları paylaşabilirsiniz.
-
-<div class="alert">
-    <p>
-        Şimdilik yorum ekltenisi yok. Umarım bir gün eklenir.
-    </p>
-</div>
+Benim en çok kullandığım kısayollar bunlar. Bir sonraki yazıda görüşmek üzere...
