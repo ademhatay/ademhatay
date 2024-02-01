@@ -2,6 +2,14 @@
 <link rel="shortcut icon" type="image/x-icon" href="/assets/img/favicon.ico?v=2" />
 <meta name="generator" content="{{ eleventy.generator }}">
 {% set absoluteUrl = settings.meta.siteUrl ~ page.url %}
+{% set absoluteTitle = settings.meta.siteTitle %}
+
+{% if title %}
+    {% set absoluteTitle = title ~ ' > ' ~ absoluteTitle %}
+{% endif %}
+
+
+
 
 {% set absoluteDescription = settings.meta.siteDescription %}
 
@@ -14,7 +22,7 @@
 <!-- Facebook Meta Tags -->
 <meta property="og:url" content="{{ absoluteUrl }}" >
 <meta property="og:type" content="website">
-<meta property="og:title" content="Adem Hatay | Software Developer">
+<meta property="og:title" content="{{ absoluteTitle }}">
 <meta property="og:description" content="{{ absoluteDescription }}">
 <meta property="og:image" content="{{ settings.meta.siteImage }}">
 
