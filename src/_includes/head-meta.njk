@@ -5,11 +5,8 @@
 {% set absoluteTitle = settings.meta.siteTitle %}
 
 {% if title %}
-    {% set absoluteTitle = title ~ ' > ' ~ absoluteTitle %}
+    {% set absoluteTitle = title %}
 {% endif %}
-
-
-
 
 {% set absoluteDescription = settings.meta.siteDescription %}
 
@@ -30,6 +27,6 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta property="twitter:domain" content="ademhatay.com">
 <meta property="twitter:url" content="{{ absoluteUrl }}">
-<meta name="twitter:title" content="Adem Hatay | Software Developer">
+<meta name="twitter:title" content="{{ absoluteTitle }}">
 <meta name="twitter:description" content="{{ absoluteDescription }}">
 <meta name="twitter:image" content="{{ settings.meta.siteImage }}">
