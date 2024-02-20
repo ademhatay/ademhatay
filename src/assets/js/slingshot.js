@@ -53,7 +53,7 @@ root.addEventListener('mousemove', (e) => {
 
 // FUNCTIONS
 function updateStatus() {
-    var status = mouseDown ? 'Basılı Tutuluyor' : 'Basılı Tutulmuyor';
+    let status = mouseDown ? 'Basılı Tutuluyor' : 'Basılı Tutulmuyor';
     console.log(status);
 }
 
@@ -76,8 +76,23 @@ class Ball {
         this.element.style.top = y + 'px';
     }
 
-    updateTransform(rotation) {
-        this.element.style.transform = `rotate(${rotation}deg)`;
+    updateTransform(targetRotation, duration = 1000) {
+        const startTime = performance.now();
+        const startRotation = parseFloat(this.element.style.transform.replace(/[^0-9.-]+/g, '')) || 0;
+        const rotationDiff = targetRotation - startRotation;
+
+        const animateTransform = (timestamp) => {
+            const elapsed = timestamp - startTime;
+            const progress = Math.min(elapsed / duration, 1); // Progress should not exceed 1
+            const currentRotation = startRotation + (rotationDiff * progress);
+            this.element.style.transform = `rotate(${currentRotation}deg)`;
+
+            if (progress < 1) {
+                requestAnimationFrame(animateTransform);
+            }
+        };
+
+        requestAnimationFrame(animateTransform);
     }
 
     remove() {
@@ -87,7 +102,7 @@ class Ball {
     moveHorizontal(distance, speed) {
         let targetX = this.x + distance;
         let currentX = this.x;
-        
+
         let move = () => {
             if ((distance > 0 && currentX < targetX) || (distance < 0 && currentX > targetX)) {
                 currentX += (distance > 0) ? speed : -speed;
