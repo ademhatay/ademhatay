@@ -14,4 +14,4 @@ featured: true
 
 <br />
 
-MySelf React, React Native Bootcamp Bitirme Projesi. Frontend React.js Backend Node.js Express.js ve NodeJS ile yapıldı. Kullanıcı-Kullanıcı ilişkileri ve tüm CRUD operasyonları  ve daha fazlası.
+<h2>Super Mern Blog</h2><hr><p>Backend: Node.js - Express.js - MongoDB<br>Frontend: React.js - Redux - React Router - Tailwind CSS</p><h2>Features</h2><ul><li><p>User Authentication</p></li><li><p>User Profile</p></li><li><p>All Crud Operations</p></li><li><p>Sending Emails</p></li><li><p>User - Post, Post - Comment, User - Comment Relations</p></li><li><p>and more ...</p></li></ul><h2>Usage</h2><ol><li><p><code> git clone https://github.com/ademhatay/super-blog.git </code></p></li><li><p><code>cd backend &amp;&amp; npm install cd frontend &amp;&amp; npm install </code></p></li><li><p><code># Create .env file in both backend and frontend directories </code></p></li><li><p><code># and add your environment variables</code></p></li><li><p><code>cd backend &amp;&amp; npm start cd frontend &amp;&amp; npm start</code></p></li></ol>
