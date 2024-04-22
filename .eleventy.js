@@ -44,12 +44,12 @@ module.exports = function (eleventyConfig) {
     
         if (yearsDiff > 0) {
             if (monthsDiff > 0) {
-                return `${yearsDiff} ${yearsDiff > 1 ? 'years' : 'year'} ${monthsDiff} ${monthsDiff > 1 ? 'months' : 'month'}`;
+                return `${yearsDiff} ${yearsDiff > 1 ? 'Yıl' : 'Yıl'} ${monthsDiff} ${monthsDiff > 1 ? 'Ay' : 'Ay'}`;
             } else {
-                return `${yearsDiff} ${yearsDiff > 1 ? 'years' : 'year'}`;
+                return `${yearsDiff} ${yearsDiff > 1 ? 'Yıl' : 'Yıl'}`;
             }
         } else {
-            return `${totalMonths + 1} ${totalMonths > 1 ? 'months' : 'month'}`;
+            return `${totalMonths + 1} ${totalMonths > 1 ? 'Ay' : 'Ay'}`;
         }
     });
 

@@ -32,6 +32,7 @@ module.exports = [
         "title": "Software Developer - Founder",
         "description": "Mohican Task",
         "dateIn": "2024-01-01",
+        "dateOut": "2024-01-01",
         "present": true,
         "location": "Istanbul, Türkiye",
         "category": "experience",
