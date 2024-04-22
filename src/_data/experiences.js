@@ -28,4 +28,13 @@ module.exports = [
         "category": "experience",
         "tags": ['react', 'javascript', 'typescript', 'git'],
     },
+    {
+        "title": "Software Developer - Founder",
+        "description": "Mohican Task",
+        "dateIn": "2024-01-01",
+        "present": true,
+        "location": "Istanbul, Türkiye",
+        "category": "experience",
+        "tags": ['react', 'javascript', 'typescript', 'git', "aws", "mongodb", "nestjs"],
+    },
 ];
