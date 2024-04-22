@@ -4,7 +4,9 @@ date: 2024-02-01
 category: javascript
 description: 11ty Portfolio Theme
 tags: ["javascript", "portfolio", "website"]
-banner: https://i.hizliresim.com/7p6zfck.jpg
+banner: https://i.hizliresim.com/okikpe0.jpg
+liveLink: https://neon-eleventy-portfolio.netlify.app/
+githubLink: https://github.com/ademhatay/neon-eleventy-portfolio
 ---
 
 # Neon eleventy 11ty Portfolio Theme
