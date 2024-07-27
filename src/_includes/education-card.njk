@@ -22,7 +22,7 @@
                 {{ item.dateOut | localeDate }}
             {% endif %}
             {% if item.present === true %}
-                <span class="current">Present</span>
+                <span class="current">Halen</span>
             {% endif %}
             {% if item.dateIn and item.dateOut %}
                 ({{ item.dateIn | calculateExperience(item.dateOut, item.present) }})

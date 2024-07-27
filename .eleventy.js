@@ -26,7 +26,7 @@ module.exports = function (eleventyConfig) {
     // Filter Function
     eleventyConfig.addFilter('count', array => array.length)
     eleventyConfig.addFilter('localeDate', date => {
-        return new Date(date).toLocaleDateString('en-US', {
+        return new Date(date).toLocaleDateString('tr-Tr', {
             year: 'numeric',
             month: 'short',
         })
